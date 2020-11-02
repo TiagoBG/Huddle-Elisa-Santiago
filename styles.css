@@ -1,16 +1,38 @@
-body{
-    padding: 0px;
-    margin:0px;
+body {
+    top: 0;
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    /* background-color: red; */
-    /* font-family: 'Poppins', sans-serif; */
+}
+
+.content h5,
+.content-flotante h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.white-btn {
+    border-radius: 20px;
+    box-shadow: 0px 5px 2px #b6a9a9;
+    padding: 25px;
+    margin-left: 90vh;
+    font-weight: 700;
 }
 
 .pink-btn {
     background-color: hsl(322, 100%, 66%);
-    border-radius: 20px;
     border: 1px solid hsl(322, 100%, 66%);
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
 }
 
 .logo {
@@ -26,72 +48,48 @@ body{
     /* border: 1px pink solid; */
 }
 
-
 .intro img {
     margin-left: 50px;
-    width:200px;
-    
-    
-}
-
-.white-btn {
-    border-radius: 20px;
-    box-shadow: 0px 5px 7px #ececec;
-    padding: 10px 50px;
-    background-color: white;
     width: 200px;
-    height: 50px;
-    font-weight: 700;
-    
 }
 
-.img1{
-    width: 700px; 
+.img1 {
+    width: 700px;
     /* border: 1px green solid; */
-    margin:0px;
+    margin: 0px;
     margin-bottom: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card1{
+.card1 {
     /* border: 1px yellow solid; */
     margin-left: 40px;
     margin-bottom: 80px;
 }
 
-.text-button{
+.text-button {
     /* border: 1px red solid; */
     display: flex;
     align-items: flex-end;
     height: 500px;
 }
 
-.title1{
-font-family: 'Poppins', sans-serif;
-font-weight: 600;
-font-size: 40px;
-width: 500px;
-line-height: 1.6;
-margin-bottom: 30px;
+.title1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    width: 500px;
+    line-height: 1.6;
+    margin-bottom: 30px;
 }
 
-.text1{
+.text1 {
     width: 500px;
     /* border: 1px black solid; */
     line-height: 1.6;
     margin-bottom: 40px;
-}
-
-.btn-rosa{
-    width: 300px;
-    height: 60px;
-    border-radius: 40px;
-    font-weight: 700;
-    justify-content: center;
-    display: flex;
-    align-items: center;
 }
 
 .cabecera {
@@ -106,33 +104,29 @@ margin-bottom: 30px;
 .header {
     margin-top: 0px;
     /* border: 1px black solid; */
-
 }
 
-.container1{
+.container1 {
     background-image: url(./images/bg-hero-desktop.svg);
     top: 0;
     position: relative;
     border: 1px transparent solid;
-    
 }
 
-.background-color{
+.background-color {
     background-color: hsl(193, 100%, 96%);
     opacity: 0.5;
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.background-color{
+.background-color {
     width: 100%;
     height: 100%;
     background: hsl(193, 100%, 96%);
     opacity: 0.5;
 }
-
-
 
 #main {
     margin: 10px auto;
@@ -149,6 +143,41 @@ margin-bottom: 30px;
     box-shadow: 5px 5px 5px #f8efef, -5px -5px 10px #f8efef;
     border: none;
     margin-top: 7vh;
+}
+
+.content p {
+    color: hsl(208, 11%, 55%);
+}
+
+.lateral {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.center {
+    display: flex;
+}
+
+.img-pad {
+    margin: 5% 3%;
+}
+
+.content-padd {
+    margin: 10px;
+    padding: 0;
+}
+
+.content {
+    padding: 0;
+    margin-top: 25vh;
+}
+
+.center .content {
+    margin-left: 5vw;
+}
+
+.lateral .content {
+    margin-right: 5vw;
 }
 
 .flotante {
@@ -171,8 +200,49 @@ margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     padding: 20px;
+    margin-left: 3vw;
+    margin-top: 10vh
 }
 
-.footer-links ul li {
+.resumen p {
+    margin-top: 5vh;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6vh;
+    margin-left: 6vw;
+}
+
+.footer-links ul {
     list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-item {
+    margin: 5vh, 5vw;
+}
+
+.redes {
+    margin-top: 10vh;
+}
+
+.footer-icons {
+    margin-left: 5vw;
+}
+
+.icons {
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+}
+
+.copyright {
+    margin-top: 40vh;
+    font-size: 12px;
 }
