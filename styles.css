@@ -1,3 +1,12 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    /* background-color: red; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
 .pink-btn {
     background-color: hsl(322, 100%, 66%);
     border-radius: 20px;
@@ -10,10 +19,79 @@
 
 .intro {
     margin: 5vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    /* border: 1px pink solid; */
 }
 
+
 .intro img {
-    margin-left: 10vh;
+    margin-left: 50px;
+    width:200px;
+    
+    
+}
+
+.white-btn {
+    border-radius: 20px;
+    box-shadow: 0px 5px 7px #ececec;
+    padding: 10px 50px;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    
+}
+
+.img1{
+    width: 700px; 
+    /* border: 1px green solid; */
+    margin:0px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1{
+    /* border: 1px yellow solid; */
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.text-button{
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+}
+
+.title1{
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 40px;
+width: 500px;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.text1{
+    width: 500px;
+    /* border: 1px black solid; */
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.btn-rosa{
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .cabecera {
@@ -26,16 +104,35 @@
 }
 
 .header {
-    background-image: url(./images/bg-hero-desktop.svg);
-    top: 0;
+    margin-top: 0px;
+    /* border: 1px black solid; */
+
 }
 
-.white-btn {
-    border-radius: 20px;
-    box-shadow: 0px 5px 2px #b6a9a9;
-    padding: 10px 50px;
-    margin-left: 90vh;
+.container1{
+    background-image: url(./images/bg-hero-desktop.svg);
+    top: 0;
+    position: relative;
+    border: 1px transparent solid;
+    
 }
+
+.background-color{
+    background-color: hsl(193, 100%, 96%);
+    opacity: 0.5;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background-color{
+    width: 100%;
+    height: 100%;
+    background: hsl(193, 100%, 96%);
+    opacity: 0.5;
+}
+
+
 
 #main {
     margin: 10px auto;
@@ -45,6 +142,7 @@
 .principal {
     margin-top: 20vh;
     margin-bottom: 40vh;
+    border: 1px green solid;
 }
 
 .utilities {
