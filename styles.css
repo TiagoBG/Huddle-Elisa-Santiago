@@ -1,7 +1,32 @@
+body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content h5,
+.content-flotante h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.white-btn {
+    border-radius: 20px;
+    box-shadow: 0px 5px 2px #b6a9a9;
+    padding: 25px;
+    margin-left: 90vh;
+    font-weight: 700;
+}
+
 .pink-btn {
     background-color: hsl(322, 100%, 66%);
     border-radius: 20px;
     border: 1px solid hsl(322, 100%, 66%);
+    font-weight: 700;
 }
 
 .logo {
@@ -13,7 +38,7 @@
 }
 
 .intro img {
-    margin-left: 10vh;
+    margin-left: 5vw;
 }
 
 .cabecera {
@@ -30,13 +55,6 @@
     top: 0;
 }
 
-.white-btn {
-    border-radius: 20px;
-    box-shadow: 0px 5px 2px #b6a9a9;
-    padding: 10px 50px;
-    margin-left: 90vh;
-}
-
 #main {
     margin: 10px auto;
     position: relative;
@@ -51,6 +69,41 @@
     box-shadow: 5px 5px 5px #f8efef, -5px -5px 10px #f8efef;
     border: none;
     margin-top: 7vh;
+}
+
+.content p {
+    color: hsl(208, 11%, 55%);
+}
+
+.lateral {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.center {
+    display: flex;
+}
+
+.img-pad {
+    margin: 5% 3%;
+}
+
+.content-padd {
+    margin: 10px;
+    padding: 0;
+}
+
+.content {
+    padding: 0;
+    margin-top: 25vh;
+}
+
+.center .content {
+    margin-left: 5vw;
+}
+
+.lateral .content {
+    margin-right: 5vw;
 }
 
 .flotante {
@@ -73,8 +126,49 @@
     display: flex;
     flex-direction: row;
     padding: 20px;
+    margin-left: 3vw;
+    margin-top: 10vh
 }
 
-.footer-links ul li {
+.resumen p {
+    margin-top: 5vh;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6vh;
+    margin-left: 6vw;
+}
+
+.footer-links ul {
     list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-item {
+    margin: 5vh, 5vw;
+}
+
+.redes {
+    margin-top: 10vh;
+}
+
+.footer-icons {
+    margin-left: 5vw;
+}
+
+.icons {
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+}
+
+.copyright {
+    margin-top: 40vh;
+    font-size: 12px;
 }
