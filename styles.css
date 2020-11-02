@@ -56,7 +56,7 @@ body {
 }
 
 .img1 {
-    width: 700px;
+    width: 600px;
     /* border: 1px green solid; */
     margin: 0px;
     margin-bottom: 50px;
@@ -69,6 +69,10 @@ body {
     /* border: 1px yellow solid; */
     margin-left: 40px;
     margin-bottom: 80px;
+}
+
+.card1 a {
+    margin-left: 5vw;
 }
 
 .text-button {
@@ -105,7 +109,6 @@ body {
 
 .header {
     margin-top: 0px;
-    /* border: 1px black solid; */
 }
 
 .container1 {
@@ -113,6 +116,7 @@ body {
     top: 0;
     position: relative;
     border: 1px transparent solid;
+    height: 100%;
 }
 
 .background-color {
@@ -191,6 +195,11 @@ body {
     padding: 75px;
 }
 
+.content-flotante a {
+    margin: auto;
+    margin-top: 5vh;
+}
+
 .borde-flotante {
     border: none;
     box-shadow: 1px 0px 3px #f8efef, -1px -5px 2px #f8efef;
@@ -251,4 +260,29 @@ body {
 .copyright {
     margin-top: 40vh;
     font-size: 12px;
+}
+
+@media (max-width:375px) {
+    .body {
+        width: 100%;
+    }
+    .lateral {
+        display: flex;
+        flex-flow: column;
+    }
+    .center {
+        display: flex;
+        flex-flow: column;
+    }
+    .content-padd {
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+    }
+    .img-pad {
+        margin: 2% 3%;
+    }
+    .footer {
+        width: 100%;
+    }
 }
