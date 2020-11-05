@@ -262,7 +262,7 @@ body {
 }
 
 @media(min-width:700px) {
-    .center {
+    .lateral {
         display: flex;
         flex-flow: row-reverse;
     }
