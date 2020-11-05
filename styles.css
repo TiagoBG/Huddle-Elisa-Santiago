@@ -134,65 +134,33 @@ body {
     opacity: 0.5;
 }
 
-#main {
-    margin: 10px auto;
-    position: relative;
-}
-
 .principal {
     margin-top: 20vh;
     margin-bottom: 40vh;
 }
 
 .utilities {
+    justify-content: center;
     box-shadow: 5px 5px 5px #f8efef, -5px -5px 10px #f8efef;
     border: none;
     margin-top: 7vh;
 }
 
-.content p {
-    color: hsl(208, 11%, 55%);
-}
-
-.lateral {
-    display: flex;
-    flex-flow: row-reverse;
-}
-
-.center {
-    display: flex;
-}
-
-.img-pad {
-    margin: 5% 3%;
-}
-
-.content-padd {
-    margin: 10px;
-    padding: 0;
-}
-
-.content {
-    padding: 0;
-    margin-top: 25vh;
-}
-
-.center .content {
-    margin-left: 5vw;
-}
-
-.lateral .content {
-    margin-right: 5vw;
+.imagen {
+    width: 240px;
+    align-items: center;
+    margin: 8vh;
 }
 
 .flotante {
-    position: absolute;
+    margin: auto;
     z-index: 2;
-    bottom: -350px;
+    margin-top: 30vh;
+    position: absolute;
 }
 
 .content-flotante {
-    padding: 75px;
+    padding: 35px;
 }
 
 .content-flotante a {
@@ -208,47 +176,52 @@ body {
 .footer {
     background-color: hsl(192, 100%, 9%);
     color: white;
-    padding-top: 20vh;
+    padding-top: 5vh;
+    margin-top: 55vh;
 }
 
-.foot-container {
-    display: flex;
-    flex-direction: row;
+.footer-content {
     padding: 20px;
-    margin-left: 3vw;
-    margin-top: 10vh
+    margin-top: 25vh;
 }
 
 .resumen p {
     margin-top: 5vh;
 }
 
-.footer-links {
-    display: flex;
-    flex-direction: row;
-    margin-top: 6vh;
-    margin-left: 6vw;
+.logo {
+    width: 50%;
 }
 
-.footer-links ul {
+.links ul {
     list-style: none;
 }
 
-.footer-links a {
+.links {
+    display: flex;
+    flex-flow: column;
+}
+
+.links.uno {
+    margin-bottom: 0;
+}
+
+.links.uno.link-item {
+    padding-bottom: 0;
+}
+
+.links.dos {
+    margin-top: 0;
+}
+
+.links ul a {
     text-decoration: none;
     color: white;
 }
 
-.link-item {
-    margin: 5vh, 5vw;
-}
-
 .redes {
-    margin-top: 10vh;
-}
-
-.footer-icons {
-    margin-left: 5vw;
+    margin-top: 5vh;
+    text-align: center;
 }
 
 .icons {
@@ -258,8 +231,9 @@ body {
 }
 
 .copyright {
-    margin-top: 40vh;
+    margin-top: 3vh;
     font-size: 12px;
+    text-align: center;
 }
 
 @media (max-width:375px) {
@@ -285,91 +259,37 @@ body {
     .text-1 {
         font-size: 14px;
     }
-    .lateral {
-        display: flex;
-        flex-flow: column;
-    }
+}
+
+@media(min-width:700px) {
     .center {
         display: flex;
-        flex-flow: column;
+        flex-flow: row-reverse;
     }
     .content-padd {
-        margin-top: 10px;
-        padding: 0;
-        text-align: center;
-    }
-    .img-pad {
-        margin: 2% 3%;
-    }
-    .flotante {
-        position: absolute;
-        z-index: 2;
-        bottom: -420px;
-    }
-    .content-flotante {
-        padding: 5vw;
-        display: flex;
-        flex-direction: column;
-    }
-    .content-flotante h5 {
-        font-size: 100%;
-        border: 2px solid black;
-        margin: 2vh 0;
-    }
-    .content-flotante a {
         margin: auto;
-        margin-top: 2vh;
-        width: 75%;
+        text-align: left;
     }
-    .foot-container {
-        width: 100vw;
+    .content-padd p,
+    .content-padd h5 {
+        text-align: left;
+    }
+    .footer {
+        margin-top: 50vh;
+    }
+    .links {
         display: flex;
-        flex-direction: column;
-        margin: auto;
-        padding: 0;
-        border: 2px solid white;
-        margin-left: 4vw;
-        margin-top: 2vh;
+        flex-flow: row;
+        margin-top: 6vh;
     }
-    .resumen {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        margin: 0;
-        padding: 0;
+    .links ul {
+        margin: 0 2vw;
     }
-    .resumen p {
-        width: 90vw;
-        margin-top: 2vh;
-    }
-    .resumen .logo {
-        width: 50vw;
-    }
-    .footer-links ul {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        padding: 0;
-        border: 2px solid white;
-        margin: 0;
-    }
-    .footerl-links .link-item {
-        margin: 0;
-        width: 100%;
-    }
-    .footer-icons {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
-    .redes,
-    .copyright {
-        margin: 0;
-        padding: 0;
-        margin-top: 2vh;
-        text-align: center;
+    .redes {
+        margin-top: 10vh;
     }
     .copyright {
-        margin-bottom: 7vh;
+        margin-top: 40vh;
+        margin-left: 12vw;
     }
 }

@@ -1,0 +1,139 @@
+.pink-btn {
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.utilities {
+    justify-content: center;
+    box-shadow: 5px 5px 5px #f8efef, -5px -5px 10px #f8efef;
+    border: none;
+    margin-top: 7vh;
+}
+
+.imagen {
+    width: 240px;
+    align-items: center;
+    margin: 8vh;
+}
+
+.flotante {
+    margin: auto;
+    z-index: 2;
+    margin-top: 30vh;
+    position: absolute;
+}
+
+.content-flotante {
+    padding: 35px;
+}
+
+.content-flotante a {
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.borde-flotante {
+    border: none;
+    box-shadow: 1px 0px 3px #f8efef, -1px -5px 2px #f8efef;
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding-top: 5vh;
+    margin-top: 50vh;
+}
+
+.footer-content {
+    padding: 20px;
+    margin-top: 15vh;
+}
+
+.resumen p {
+    margin-top: 5vh;
+}
+
+.logo {
+    width: 50%;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+}
+
+.links.uno {
+    margin-bottom: 0;
+}
+
+.links.uno.link-item {
+    padding-bottom: 0;
+}
+
+.links.dos {
+    margin-top: 0;
+}
+
+.links ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.redes {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.icons {
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+}
+
+.copyright {
+    margin-top: 3vh;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media(min-width:700px) {
+    .center {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    .content-padd {
+        margin: auto;
+        text-align: left;
+    }
+    .content-padd p,
+    .content-padd h5 {
+        text-align: left;
+    }
+    .links {
+        display: flex;
+        flex-flow: row;
+        margin-top: 6vh;
+    }
+    .links ul {
+        margin: 0 2vw;
+    }
+    .redes {
+        margin-top: 10vh;
+    }
+    .copyright {
+        margin-top: 40vh;
+        margin-left: 12vw;
+    }
+}
