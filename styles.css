@@ -6,7 +6,8 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
-.background{
+
+.background {
     background-image: url(./images/bg-hero-desktop.svg);
 }
 
@@ -27,7 +28,7 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-    color:white;
+    color: white;
 }
 
 .logo {
@@ -145,6 +146,15 @@ body {
     margin: 8vh;
 }
 
+.headings {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content p {
+    color: hsl(208, 11%, 55%);
+}
+
 .flotante {
     margin: auto;
     z-index: 2;
@@ -226,33 +236,28 @@ body {
 }
 
 @media (max-width:375px) {
-    .background{
+    .background {
         background-image: url(./images/bg-hero-mobile.svg);
     }
-    
-    .nav{
+    .nav {
         margin-bottom: 30px;
         padding-top: 20px;
         width: 360px;
         align-items: center;
     }
-
-    .logo{
+    .logo {
         width: 110px;
     }
-
-    .white-btn{
-        margin:0px;
+    .white-btn {
+        margin: 0px;
         font-size: 10px;
         width: 150px;
     }
-
-    .title1{
+    .title1 {
         font-size: 24px;
         text-align: center;
     }
-
-    .text-1{
+    .text-1 {
         text-align: center;
     }
 }
